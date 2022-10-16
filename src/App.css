@@ -1,38 +1,350 @@
-.App {
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.lus{
+
+   margin-right: 350px;
+    font-size: 30px;
+    color: black;
+}
+
+.logo1 {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+    opacity: 80%;
+    
+
+   
+}
+
+.scnd{
+    margin-top: 30px;
+   
+    width: 100%;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background-color: grey;
+}
+
+.tit{
+    font-size: 30px;
+}
+
+.thrd{
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 10px;
+    align-items: center;
+    row-gap: 10px;
+
+}
+
+.best{
+    margin-top: 30px;
+    text-align: center;
+}
+.pro{
+    rotate: 90deg;
+  
   text-align: center;
+background: grey;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 1000px) {
+    .pro {
+      display: none;
+    }
   }
+
+  @media screen and (max-width: 1000px) {
+    .best {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .frth {
+      margin-left: 45px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .frth2 {
+      margin-left: 45px;
+    }
+  }
+
+
+  .frth{
+    background-image: url('./Photos/Photos/f1.png');
+    height: 400px;
+    background-color: burlywood;
+    margin-top: 20px;
+    width:40rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .txt1{
+    font-size: 60px;
+    text-align: center;
+   
+
+  }
+
+  .txt2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .btn1{
+    text-align: center;
+    align-items: center ;
+  }
+
+  
+  .frth2{
+    height: 400px;
+    margin-top: 20px;
+    background-color: burlywood;
+    text-align: center;
+    justify-content: center;
+    width: 12rem;
+  
+  }
+
+  .forth{
+    width: 100%;
+    column-gap: 10px;
+    justify-content: center;
+  
+    align-items: center;
+  }
+
+
+  .txt4{
+    font-size: 30px;
+  }
+  .txt3{
+    font-size: 40px;
+  }
+
+  .btn1{
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .txt1 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .txt2 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .txt3 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .txt4 {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .forth {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .par {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 140px;
+      margin-left: -31px;
+    }
+  }
+
+  .fifth{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+
+  .par{
+    margin-top: 100px;
+    
+  }
+
+  .theme{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .vint{
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .fifth {
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      margin-right: 30px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .theme {
+        
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: small;
+     
+    }
+  }
+
+  .Home{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+  }
+
+  .shop1{
+    background-image: url('./Photos/Photos/Shop1.jpg');
+    height: 600px;
+    background-color: burlywood;
+   
+    width:40rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  .shop2{
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .shopbtn{
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .warn{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .crt{
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .cart{
+    height: 100vh;
+    background-color: grey;
+    width: 100%;
+    flex-direction: column;
+  }
+
+
+  .btncart{
+    margin-top: 20px;
+  }
+
+  .bn{
+    justify-content: center !important
+  }
+
+  .none{
+    width: 0;
+    height: 0;
+    display: none;
+  }
+
+ 
+  
+  
+.badge{
+  color: white;
+  background-color: blue !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.badge1{
+  color: white;
+  background-color: green !important;
+}
+
+.del{
+  margin-left: 2px
+}
+
+.minus{
+  margin-left: 2px
+}
+
+.pricetxt{
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  flex-direction: row;
+}
+
+
+.shopimg{
+  position: relative;
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.textshop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.texthome{
+ background-color: red;
+position: absolute
 }
+
+
+/* background-color:rgb(46, 46, 24); */
