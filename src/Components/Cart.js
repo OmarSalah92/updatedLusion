@@ -16,7 +16,7 @@ const Cart=(props)=> {
   return (  
   <div className=' row container-fluid d-flex shop2  '>
   {props.newProducts1.map((e)=>(
-  <div key={e.id} className='col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center'><div>
+  <div key={e.id} className='col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center scndshop'><div>
   <Card style={{ width: '17rem' }} >
 <Card.Img variant="top" src={e.img}  />
 <Card.Body>
@@ -83,8 +83,11 @@ const Cart=(props)=> {
  
  
  <div className='d-flex mt-3 bn'>
+ <Link to={'/pay'} onClick={props.payBtn} className={'Home'}>
+ <Button variant='danger '  className={props.newProducts1.length>0?'flex column':props.newProducts.length>0?'flex column':'none' } >Proceed to Pay</Button>
+ </Link>
     <Link to={'/Shop'} className={'Home'}>
- <Button variant='success ' className='d-flex justify-content-center '>Continue Shopping</Button>
+ <Button variant='success ' className=' flex-column '>Continue Shopping</Button>
  </Link>
  </div>
  </div>

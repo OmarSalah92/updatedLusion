@@ -16,7 +16,7 @@ const ThirdHome=(props)=>  {
     return (
   
       props.products1.map((n)=>(
-        <div  key={n.id} className='col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center'>
+        <div  key={n.id} className='col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center thrd '>
             <Card style={{ width: '17rem' }} >
           <Card.Img variant="top" src={n.img}  />
           <Card.Body>

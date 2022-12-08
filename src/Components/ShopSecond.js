@@ -21,7 +21,7 @@ const ShopSecond =(props)=> {
     return (
         
         props.products.map((e)=>(
-    <div  key={e.id} className='col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center'>
+    <div  key={e.id} className='col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center scndshop'>
         <Card style={{ width: '17rem' }} >
       <Card.Img variant="top" src={e.img}  />
       <Card.Body>

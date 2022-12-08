@@ -16,14 +16,14 @@ const Home=(props)=>
       <div >
         <FirstHome/>
         <SecondHome className='row container-fluid d-flex shop2'/>
-        <div className='row container-fluid d-flex shop2'>
+        <div className='row container-fluid d-flex shop2 '>
         <h1 className='best'>Best Seller</h1>
 
-        <ThirdHome products1={props.data1} y={props.add1}/>
+        <ThirdHome products1={props.data1} y={props.add1} />
         </div>
         
         <div className='row container-fluid d-flex shop2'><ForthHome/></div>
-        <div  className='row container d-flex shop2'><FifthHome/></div>
+        <FifthHome/>
         
       </div>
     )

@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 const ForthHome =()=> {
   
-    return ( <div className=' scnd row '>
+    return ( <div className=' merry row  '>
          <Card className="text-center frth col-lg-4 col-md-3 col-sm-3 d-flex justify-content-center">
       <Card.Body>
         <Card.Title className='txt2'>Merry</Card.Title>

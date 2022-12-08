@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaCartPlus } from 'react-icons/fa';
 import {Badge} from 'react-bootstrap'
-import {Link} from 'react-router-dom'
+import {Link, useLocation} from 'react-router-dom'
+import { Button } from 'bootstrap';
+import axios from 'axios';
 
 
  const Naav =(props)=> {
+
   
+
+
     return (
-        <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark">
+        <Navbar collapseOnSelect expand="lg" className='naav' variant="dark">
       <Container>
        
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -18,7 +23,10 @@ import {Link} from 'react-router-dom'
         <Nav>
         <Link to={'/'} className={'Home'}>Home</Link>
         <Link to={'/Shop'} className={'Home'}>Shop</Link>
-            
+     
+           <Link to={'/signin'} className={'Home'} onClick={props.FormSubmit4} >{props.signin}</Link>
+          <Link to={'/controlPanel'} className={'Home'}>{props.checkError=='admin'?'ControlPanel':''}</Link> 
+         
           </Nav>
         
           

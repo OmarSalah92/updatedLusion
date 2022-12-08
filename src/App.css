@@ -10,7 +10,13 @@
     font-size: 30px;
     color: black;
 }
-
+@media screen and (min-width: 1000px) {
+  .lus {
+    margin-right: 470px;
+    font-size: 30px;
+    color: black;
+  }
+}
 .logo1 {
     background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
     opacity: 80%;
@@ -30,7 +36,10 @@
 }
 
 .app {
-    background-color: grey;
+    background-color: antiquewhite;
+}
+.naav{
+  background-color: burlywood;
 }
 
 .tit{
@@ -73,16 +82,25 @@ margin-top: 60px;
       text-align: center;
     }
   }
-  @media screen and (max-width: 1000px) {
-    .frth {
-      margin-left: 45px;
-    }
-  }
+  
+  
   @media screen and (max-width: 1000px) {
     .frth2 {
       margin-left: 45px;
     }
   }
+  @media screen and (max-width: 1000px) {
+    .scnd {
+      margin-left: 5px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .shop2 {
+      margin-left: 5px;
+    }
+  }
+ 
 
 
   .frth{
@@ -115,7 +133,7 @@ margin-top: 60px;
 
   
   .frth2{
-    height: 400px;
+    height: 270px;
     margin-top: 20px;
     background-color: burlywood;
     text-align: center;
@@ -186,6 +204,12 @@ margin-top: 60px;
     margin-left: 20px;
   }
 
+  @media screen and (max-width: 1000px) {
+    .fifth {
+      margin-left: 5px;
+    }
+  }
+
 
   .par{
     margin-top: 100px;
@@ -200,6 +224,7 @@ margin-top: 60px;
   }
   .vint{
     text-align: center;
+    margin-top: 10px;
   }
 
   @media screen and (max-width: 1000px) {
@@ -228,6 +253,104 @@ margin-top: 60px;
     color: black;
     margin-left: 5px;
   }
+  .sign{
+    margin-top: 30px;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: burlywood;
+    width: 331px;
+    height: 425px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.signin{
+  text-align: center;
+  color:cornflowerblue ;
+ 
+  font-family: 'Josefin Sans', cursive;
+}
+.signn {
+  text-align: center;
+  color:cornflowerblue ;
+ 
+  font-family: 'Josefin Sans', cursive;
+  align-items: center;
+  justify-content: center;
+}
+
+.signForm {
+  margin        : 0;
+  padding       : 0;
+  display       : flex;
+  place-content : center;
+  min-height    : 552px;
+  box-sizing: border-box;
+  background-color: white;
+  
+}
+.signup{
+  margin-top: 30px;
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: burlywood;
+  width: 331px;
+  height: 717px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.newUserSignup{
+  margin-top: 30px;
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: burlywood;
+  width: 331px;
+  height: 670px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.signup1{
+  margin-top: 30px;
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: burlywood;
+  width: 331px;
+  height: 470px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.login{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  place-content: center
+  ;
+  display: flex;
+}
+.pay{
+  overflow-x: hidden;
+}
+.login1{
+  text-align: center;
+  align-items: center;
+  width: 150px;
+  place-content: center
+  ;
+  height: 38px;
+}
+
+    
 
   .shop1{
     background-image: url('./Photos/Photos/Shop1.jpg');
@@ -302,7 +425,7 @@ margin-top: 60px;
   
 .badge{
   color: white;
-  background-color: blue !important;
+  background-color: brown !important;
 }
 
 .badge1{
@@ -347,4 +470,159 @@ position: absolute
 }
 
 
-/* background-color:rgb(46, 46, 24); */
+.merry{
+  margin-top: 30px;
+   
+  width: 100%;
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .merry {
+    margin-left: -5px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .thrd {
+    margin-left: 15px;
+    justify-content: center;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+  .scndshop {
+    margin-left: 5px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .style {
+    width: 165px;
+    margin-left: -35px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .theme {
+    width: 174px;
+    margin-left: -40px;
+    justify-content: center;
+  }
+}
+
+.style{
+  text-align: center;
+  justify-content: center;
+ 
+ 
+}
+
+@media screen and (max-width: 1000px) {
+  .shop2 {
+    
+    justify-content: center;
+  }
+}
+
+
+.error {
+  color: red;
+}
+
+
+.product-table{
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.items-table{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.items-table1{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-btns{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  flex-basis: 50%;
+  
+}
+.products-btns1{
+  display: flex;
+  align-items: baseline;
+  
+  flex-basis: 30%;
+  
+}
+
+
+
+
+
+.SideBar{
+  background: burlywood;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.view{
+  height: 100vh;
+}
+
+.cp{
+  width: 100%;
+}
+.cp1{
+  width: 100%;
+  column-gap: 17px;
+}
+
+.card1{
+  text-align: center;
+  margin-left: 100px !important;
+  padding: 0rem !important;
+  font-family: 'Josefin Sans', cursive;
+}
+.card2{
+  text-align: center;
+  padding: 0rem !important;
+  font-family: 'Josefin Sans', cursive;
+
+}
+
+.card-header{
+  background-color: seagreen;
+  
+}
+
+.conpan{
+  text-align: center;
+}
