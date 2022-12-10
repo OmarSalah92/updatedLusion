@@ -280,6 +280,16 @@ margin-top: 60px;
  
   font-family: 'Josefin Sans', cursive;
 }
+@media screen and (max-width: 1000px) {
+  .signin {
+      
+    text-align: center;
+    color:cornflowerblue ;
+   
+    font-family: auto;
+   
+  }
+}
 .signn {
   text-align: center;
   color:cornflowerblue ;
