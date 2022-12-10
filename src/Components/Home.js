@@ -13,7 +13,7 @@ const Home=(props)=>
  {
   
     return (
-      <div >
+       <div className='row container-fluid d-flex shop2'>
         <FirstHome/>
         <SecondHome className='row container-fluid d-flex shop2'/>
         <div className='row container-fluid d-flex shop2 '>
