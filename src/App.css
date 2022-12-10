@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
-  margin: 0;
+  
+  padding: 0;
+ 
+ 
 }
 
 
@@ -37,6 +40,7 @@
 
 .app {
     background-color: antiquewhite;
+    width: 100%;
 }
 .naav{
   background-color: burlywood;
@@ -87,6 +91,7 @@ margin-top: 60px;
   @media screen and (max-width: 1000px) {
     .frth2 {
       margin-left: 45px;
+      margin: auto;
     }
   }
   @media screen and (max-width: 1000px) {
@@ -98,6 +103,7 @@ margin-top: 60px;
   @media screen and (max-width: 1000px) {
     .shop2 {
       margin-left: 5px;
+      margin: auto;
     }
   }
  
@@ -200,9 +206,11 @@ margin-top: 60px;
   }
 
   .fifth{
-    margin-top: 20px;
+    margin-top: 20px !important;
     margin-left: 20px;
+    margin: auto;
   }
+
 
   @media screen and (max-width: 1000px) {
     .fifth {
