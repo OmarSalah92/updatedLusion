@@ -298,6 +298,18 @@ margin-top: 60px;
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 1000px) {
+  .signn {
+      
+    text-align: center;
+    color:cornflowerblue ;
+   
+    font-family: auto;
+    align-items: center;
+    justify-content: center;
+   
+  }
+}
 
 .signForm {
   margin        : 0;
